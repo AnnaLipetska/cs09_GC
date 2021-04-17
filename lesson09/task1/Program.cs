@@ -85,6 +85,9 @@ namespace task1
             Console.WriteLine("Проверка работы деструктора:");
 
             var wrapper4Finalizing = new MyResourceWrapper();
+
+            //Задержка
+            Console.ReadKey();
         }
     }
 }
